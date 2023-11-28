@@ -1,0 +1,240 @@
+.link__dropdown {
+    color: black;
+}
+
+.notification__icon {
+    background: rgb(234, 234, 234);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.icon {
+    left: 29%;
+    bottom: 24%;
+    width: 12px;
+    opacity: 0.6;
+}
+
+.user {
+    width: 30px;
+    height: 30px;
+}
+
+.user img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.pixel__blue {
+    width: 6px;
+    height: 6px;
+    background: blue;
+    border-radius: 50%;
+    top: 8%;
+    left: 65%;
+}
+
+.pixel__verde {
+    width: 6px;
+    height: 6px;
+    background: rgb(2, 220, 2);
+    border-radius: 50%;
+    bottom: 8px;
+    left: 22px;
+}
+
+.welcome__student  {
+    width: 100%;
+    height: 46vh;
+    background: #7550fe;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.title {
+    width: 40%;
+    height: 100%;
+}
+
+.title h2 {
+    margin-top: 55px;
+    color: white;
+}
+
+.title p {
+    color: rgb(200, 196, 196);
+}
+.title button {
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button__course {
+    background: #1acb98;
+    color: white;
+}
+
+.img__hero img{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.img__hero {
+    left: 49%;
+    width: 40%;
+    bottom: 0%;
+    height: 100%;
+}
+
+.courses__icon {
+    width: 45px;
+    height: 45px;
+    background: #ffeeda;
+    border-radius: 50%;
+}
+
+.instruction__icon {
+    width: 45px;
+    height: 45px;
+    background: #ffeeda;
+    border-radius: 50%;
+}
+
+.access__icon {
+    width: 45px;
+    height: 45px;
+    background: #ffeeda;
+    border-radius: 50%;
+}
+
+.icon__information__courses {
+    color: #c79255; 
+    top: 30%;
+    left: 32%;
+}
+
+.information__courses h6 {
+    margin: 0px;
+}
+
+.text__information {
+    padding-left: 10px;
+}
+
+.background__contenitore__card {
+    background: #f5f4f8;
+    box-shadow: 5px 5px 4px 6px #c3bfbf;
+}
+
+.recommended {
+    margin-top: 50px;
+    width: 80%;
+    /* padding-left: 17%;
+    padding-top: 5%; */
+}
+
+.cardd {
+    min-width: 220px;
+    max-width: 220px;
+    height: auto;
+    background: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical; */
+}
+
+.cardd img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.information__card h6 {
+    margin-top: 20px;
+}
+
+.information__card p {
+    padding-left: 21px;
+}
+
+.time__icon {
+    width: 20px;
+    height: 20px;
+    bottom: 63%;
+}
+
+.signal__icon {
+    bottom: 24px;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+}
+
+.stars__icon {
+    color: #ffa944;
+}
+
+.stars__p {
+    color: #ffa944;
+    padding-left: 5px;
+}
+
+.stars h5 {
+    margin-top: 15px;
+}
+
+.recensioni {
+    color: rgb(175, 172, 172);
+}
+
+.stars s {
+    color: gray;
+}
+
+.icon__signal__cellular {
+    color: rgb(58, 58, 119);
+}
+
+.advance {
+    bottom: 26px;
+    left: 25px;
+}
+
+.cardd p {
+    margin-bottom: 2px;
+}
+
+.user__space {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.small__img__user img {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+
+.name__user {
+    font-size: 15px;
+    color: rgb(129, 125, 125);
+}
+
+.save__icon {
+    color: gray;
+    right: -4%;
+    bottom: 6%;
+}
+
+.first__section, .second__section, .third__section {
+    margin-top: 30px;
+}
