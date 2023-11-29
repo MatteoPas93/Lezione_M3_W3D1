@@ -129,7 +129,11 @@
                   Pages
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li>
+                    <a class="dropdown-item" href="#first__section__link"
+                      >Racommended</a
+                    >
+                  </li>
                   <li><a class="dropdown-item" href="#"></a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
                 </ul>
@@ -145,7 +149,7 @@
                   Accounts
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">ds</a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
                 </ul>
@@ -162,14 +166,127 @@
           ></ion-icon>
           <div class="pixel__blue position-absolute"></div>
         </div>
-        <div class="user">
-          <img src="./assets/avatar-1.jpg" alt="user" />
-          <div class="pixel__verde position-relative"></div>
+      <div class="dropdown">
+        <div class="user__big position-relative">
+          
+          <div class="btn-group dropstart">
+          <button
+            class="dropdown-toggle btn btn-secondary"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="./assets/avatar-1.jpg" alt="user" />
+          </button>
+          <div class="pixel__verde__uno position-absolute"></div>
+          <ul class="dropdown-menu">
+          
+              <div class="card card-body collapse__message d-flex justify-content-between flex-wrap">
+                <div class="profile">
+                  <div class="user__small position-relative">
+                    <img src="./assets/avatar-1.jpg" alt="user" />
+                    <div class="pixel__verde position-absolute"></div>
+                    <div class="nameUser position-absolute">
+                      <p>Annette Black</p>
+                      <p class="email__user">annette@geeksui.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="settings">
+                  <div class="user__profile">
+                    <ion-icon
+                      class="icons__collapse "
+                      name="person-outline"
+                    ></ion-icon>
+                    <span>Profile</span>
+                  </div>
+                  <div class="subscription">
+                    <ion-icon
+                      class="icons__collapse"
+                      name="star-outline"
+                    ></ion-icon>
+                    <span>Subscription</span>
+                  </div>
+                  <div class="settings">
+                    <ion-icon
+                      class="icons__collapse "
+                      name="settings-outline"
+                    ></ion-icon>
+                    <span>Settings</span>
+                  </div>
+                </div>
+                <div class="out d-flex align-items-center">
+                  <ion-icon
+                    class=" icon__out"
+                    name="power-outline"
+                  ></ion-icon>
+                  <span>Sign Out</span>
+                </div>
+              </div>
+            
+            
+          </ul>
         </div>
+        <!-- <div class="nav__icon d-flex">
+        <div class="notification__icon position-relative">
+          <ion-icon
+            class="icon position-absolute"
+            name="notifications-outline"
+          ></ion-icon>
+          <div class="pixel__blue position-absolute"></div>
+        </div>
+
+
+        <p class="d-inline-flex gap-1">
+         
+          <div class="user position-relative">
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#setting__user" aria-expanded="false" aria-controls="collapseExample">
+          
+          <img src="./assets/avatar-1.jpg" alt="user" /></button>
+          <div class="pixel__verde position-relative">
+        </div>
+          
+        </p>
+        <div class="collapse" id="setting__user">
+          <div class="card card-body position-absolute collapse__message">
+            <div class="profile position-absolute">
+              <div class="user position-relative">
+                <img src="./assets/avatar-1.jpg" alt="user" />
+                <div class="pixel__verde position-relative">
+                </div>
+                <div class="nameUser position-relative">
+                <p>Annette Black</p>
+                <p class="email__user">annette@geeksui.com</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="settings position-relative">
+              <div class="user__profile">
+              <ion-icon class="icons__collapse position-relative" name="person-outline"></ion-icon>
+              <span>Profile</span>
+              </div>
+              <div class="subscription">
+                <ion-icon class="icons__collapse position-relative" name="star-outline"></ion-icon>
+                <span>Subscription</span>
+              </div>
+              <div class="settings">
+                <ion-icon class="icons__collapse position-relative" name="settings-outline"></ion-icon>
+                <span>Settings</span>
+              </div>
+            </div>
+            <div class="out position-relative">
+              <ion-icon class="position-relative icon__out" name="power-outline"></ion-icon>
+             <span class="position-relative span__out">Sign Out</span>
+            </div>
+          </div>
+        </div>
+ -->
       </div>
     </nav>
 
-    <div class="welcome__student align-content-center flex-wrap row">
+    <div
+      class="welcome__student align-content-center justify-content-center align-items-center flex-wrap row"
+    >
       <div class="title col-12 col-lg-6">
         <h2>Welcome Web Students!</h2>
         <p>
@@ -185,7 +302,7 @@
       </div>
     </div>
     <div
-      class="information__courses d-flex justify-content-evenly align-items-center mt-3"
+      class="information__courses d-flex flex-wrap justify-content-evenly align-items-center mt-3"
     >
       <div class="courses d-flex">
         <div class="courses__icon position-relative">
@@ -231,7 +348,525 @@
         <div class="recommended">
           <h4>Recommended to you</h4>
         </div>
-        <div class="cards__first__section row mt-3">
+        <div id="carousel__first__section" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="cards__first__section row justify-content-center mt-3 gap-2"
+              >
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-graphql.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      GraphQL: introduction to <br />
+                      graphQL for beginners
+                    </h6>
+                    <p>2h 40m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">2.5</span>
+                      <span class="recensioni">(1,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$500</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$600</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-5.jpg" alt="" />
+                        <span class="name__user">Brooklyn Simmons</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-javascript.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      A Complete Beginner's <br />
+                      Guide to JavaScript
+                    </h6>
+                    <p>4h 10m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">3.5</span>
+                      <span class="recensioni">(7,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$700</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$850</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-1.jpg" alt="" />
+                        <span class="name__user">Jenny Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-node.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Beginning Node.js, Express <br />
+                      & MongoDB Development
+                    </h6>
+                    <p>2h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.0</span>
+                      <span class="recensioni">(15,700)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$950</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">Sina Ray</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-laravel.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Lavarel: The Ultimate <br />
+                      Beginner's Guide to Learn
+                    </h6>
+                    <p>1h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.5</span>
+                      <span class="recensioni">(2,500)</span>
+                      <div class="price">
+                        <div class="real__price">
+                          <h5>$170</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$220</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-7.jpg" alt="" />
+                        <span class="name__user">Sobo Rikhan</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="cards__first__section row justify-content-center mt-3 gap-2"
+              >
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-graphql.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      GraphQL: introduction to <br />
+                      graphQL for beginners
+                    </h6>
+                    <p>2h 40m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">2.5</span>
+                      <span class="recensioni">(1,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$500</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$600</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-5.jpg" alt="" />
+                        <span class="name__user">Brooklyn Simmons</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-javascript.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      A Complete Beginner's <br />
+                      Guide to JavaScript
+                    </h6>
+                    <p>4h 10m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">3.5</span>
+                      <span class="recensioni">(7,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$700</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$850</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-1.jpg" alt="" />
+                        <span class="name__user">Jenny Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-node.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Beginning Node.js, Express <br />
+                      & MongoDB Development
+                    </h6>
+                    <p>2h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.0</span>
+                      <span class="recensioni">(15,700)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$950</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">Sina Ray</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-laravel.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Lavarel: The Ultimate <br />
+                      Beginner's Guide to Learn
+                    </h6>
+                    <p>1h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.5</span>
+                      <span class="recensioni">(2,500)</span>
+                      <div class="price">
+                        <div class="real__price">
+                          <h5>$170</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$220</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-7.jpg" alt="" />
+                        <span class="name__user">Sobo Rikhan</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev button__carousel"
+            type="button"
+            data-bs-target="#carousel__first__section"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next button__carousel"
+            type="button"
+            data-bs-target="#carousel__first__section"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <div
+          class="cards__first__section row justify-content-center mt-3 gap-2"
+        >
           <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
             <div class="img__card d-flex">
               <img src="./assets/course-graphql.jpg" alt="graph" />
@@ -266,7 +901,14 @@
                 <ion-icon class="stars__icon" name="star-outline"></ion-icon>
                 <span class="stars__p">2.5</span>
                 <span class="recensioni">(1,500)</span>
-                <h5>$500 <s>$600</s></h5>
+                <div class="price d-flex">
+                  <div class="real__price">
+                    <h5>$500</h5>
+                  </div>
+                  <div class="before__price">
+                    <s>$600</s>
+                  </div>
+                </div>
               </div>
               <div class="user__space">
                 <div class="small__img__user">
@@ -314,7 +956,14 @@
                 <ion-icon class="stars__icon" name="star-outline"></ion-icon>
                 <span class="stars__p">3.5</span>
                 <span class="recensioni">(7,500)</span>
-                <h5>$700 <s>$850</s></h5>
+                <div class="price d-flex">
+                  <div class="real__price">
+                    <h5>$700</h5>
+                  </div>
+                  <div class="before__price">
+                    <s>$850</s>
+                  </div>
+                </div>
               </div>
               <div class="user__space">
                 <div class="small__img__user">
@@ -362,7 +1011,14 @@
                 <ion-icon class="stars__icon" name="star-outline"></ion-icon>
                 <span class="stars__p">4.0</span>
                 <span class="recensioni">(15,700)</span>
-                <h5>$800 <s>$950</s></h5>
+                <div class="price d-flex">
+                  <div class="real__price">
+                    <h5>$800</h5>
+                  </div>
+                  <div class="before__price">
+                    <s>$950</s>
+                  </div>
+                </div>
               </div>
               <div class="user__space">
                 <div class="small__img__user">
@@ -410,7 +1066,14 @@
                 <ion-icon class="stars__icon" name="star-outline"></ion-icon>
                 <span class="stars__p">4.5</span>
                 <span class="recensioni">(2,500)</span>
-                <h5>$170 <s>$220</s></h5>
+                <div class="price">
+                  <div class="real__price">
+                    <h5>$170</h5>
+                  </div>
+                  <div class="before__price">
+                    <s>$220</s>
+                  </div>
+                </div>
               </div>
               <div class="user__space">
                 <div class="small__img__user">
@@ -424,409 +1087,1011 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="second__section">
         <div class="recommended">
           <h4>Most Popular</h4>
         </div>
-        <div class="cards__first__section row mt-3">
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-html.jpg" alt="graph" />
+        <div id="carousel__second__section" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="cards__second__section row justify-content-center mt-3 gap-2"
+              >
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-html.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      HTML Full Course - Build a <br />
+                      Website Tutorial
+                    </h6>
+                    <p>3h 16m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">2.5</span>
+                      <span class="recensioni">(1,600)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$550</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$700</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-8.jpg" alt="" />
+                        <span class="name__user">Miston Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-javascript.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      A Complete Beginner's <br />
+                      Guide to JavaScript
+                    </h6>
+                    <p>4h 10m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">3.5</span>
+                      <span class="recensioni">(7,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$700</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$850</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-1.jpg" alt="" />
+                        <span class="name__user">Jenny Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-node.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Beginning Node.js, Express <br />
+                      & MongoDB Development
+                    </h6>
+                    <p>2h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.0</span>
+                      <span class="recensioni">(15,700)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$950</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">Sina Ray</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-react.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      How to easily create a <br />
+                      website with React
+                    </h6>
+                    <p>3h 55m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.5</span>
+                      <span class="recensioni">(1,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$600</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$750</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">April Noms</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="information__card position-relative">
-              <h6>
-                HTML Full Course - Build a <br />
-                Website Tutorial
-              </h6>
-              <p>3h 16m</p>
+            <div class="carousel-item">
+              <div
+                class="cards__second__section row justify-content-center mt-3 gap-2"
+              >
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-html.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      HTML Full Course - Build a <br />
+                      Website Tutorial
+                    </h6>
+                    <p>3h 16m</p>
 
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
 
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
 
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <span class="stars__p">2.5</span>
-                <span class="recensioni">(1,600)</span>
-                <h5>$550 <s>$700</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-8.jpg" alt="" />
-                  <span class="name__user">Miston Wilson</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">2.5</span>
+                      <span class="recensioni">(1,600)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$550</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$700</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-8.jpg" alt="" />
+                        <span class="name__user">Miston Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-javascript.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      A Complete Beginner's <br />
+                      Guide to JavaScript
+                    </h6>
+                    <p>4h 10m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">3.5</span>
+                      <span class="recensioni">(7,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$700</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$850</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-1.jpg" alt="" />
+                        <span class="name__user">Jenny Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-node.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Beginning Node.js, Express <br />
+                      & MongoDB Development
+                    </h6>
+                    <p>2h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.0</span>
+                      <span class="recensioni">(15,700)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$950</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">Sina Ray</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-react.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      How to easily create a <br />
+                      website with React
+                    </h6>
+                    <p>3h 55m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.5</span>
+                      <span class="recensioni">(1,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$600</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$750</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">April Noms</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-javascript.jpg" alt="graph" />
-            </div>
-            <div class="information__card position-relative">
-              <h6>
-                A Complete Beginner's <br />
-                Guide to JavaScript
-              </h6>
-              <p>4h 10m</p>
-
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
-
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon
-                  class="stars__icon"
-                  name="star-half-outline"
-                ></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <span class="stars__p">3.5</span>
-                <span class="recensioni">(7,500)</span>
-                <h5>$700 <s>$850</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-1.jpg" alt="" />
-                  <span class="name__user">Jenny Wilson</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-node.jpg" alt="graph" />
-            </div>
-            <div class="information__card position-relative">
-              <h6>
-                Beginning Node.js, Express <br />
-                & MongoDB Development
-              </h6>
-              <p>2h 00m</p>
-
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
-
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <span class="stars__p">4.0</span>
-                <span class="recensioni">(15,700)</span>
-                <h5>$800 <s>$950</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-3.jpg" alt="" />
-                  <span class="name__user">Sina Ray</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-react.jpg" alt="graph" />
-            </div>
-            <div class="information__card position-relative">
-              <h6>
-                How to easily create a <br />
-                website with React
-              </h6>
-              <p>3h 55m</p>
-
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
-
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon
-                  class="stars__icon"
-                  name="star-half-outline"
-                ></ion-icon>
-                <span class="stars__p">4.5</span>
-                <span class="recensioni">(1,500)</span>
-                <h5>$600 <s>$750</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-3.jpg" alt="" />
-                  <span class="name__user">April Noms</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
-                </div>
-              </div>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev button__carousel"
+            type="button"
+            data-bs-target="#carousel__second__section"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next button__carousel"
+            type="button"
+            data-bs-target="#carousel__second__section"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <div class="third__section">
         <div class="recommended">
           <h4>Trending</h4>
         </div>
-        <div class="cards__first__section row mt-3">
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-gatsby.jpg" alt="graph" />
+        <div id="carousel__third__section" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="cards__third__section justify-content-center row mt-3 gap-2"
+              >
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-gatsby.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Revolutionize how you build <br />
+                      the web
+                    </h6>
+                    <p>1h 46m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">2.0</span>
+                      <span class="recensioni">(16,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$850</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-6.jpg" alt="" />
+                        <span class="name__user">Jenny Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-html.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      HTML Full Course - Build a <br />
+                      Website Tutorial
+                    </h6>
+                    <p>3h 16m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">3.0</span>
+                      <span class="recensioni">(1,600)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$550</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$700</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-8.jpg" alt="" />
+                        <span class="name__user">Miston Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-node.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Beginning Node.js, Express <br />
+                      & MongoDB Development
+                    </h6>
+                    <p>2h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.0</span>
+                      <span class="recensioni">(15,700)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$950</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">Sina Ray</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-laravel.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Lavarel: The Ultimate <br />
+                      Beginner's Guide to Learn
+                    </h6>
+                    <p>1h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.5</span>
+                      <span class="recensioni">(2,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$170</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$220</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-7.jpg" alt="" />
+                        <span class="name__user">Sobo Rikhan</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="information__card position-relative">
-              <h6>
-                Revolutionize how you build <br />
-                the web
-              </h6>
-              <p>1h 46m</p>
+            <div class="carousel-item">
+              <div
+                class="cards__third__section justify-content-center row mt-3 gap-2"
+              >
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-gatsby.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Revolutionize how you build <br />
+                      the web
+                    </h6>
+                    <p>1h 46m</p>
 
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
 
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
 
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <span class="stars__p">2.0</span>
-                <span class="recensioni">(16,500)</span>
-                <h5>$800 <s>$850</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-6.jpg" alt="" />
-                  <span class="name__user">Jenny Wilson</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">2.0</span>
+                      <span class="recensioni">(16,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$850</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-6.jpg" alt="" />
+                        <span class="name__user">Jenny Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-html.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      HTML Full Course - Build a <br />
+                      Website Tutorial
+                    </h6>
+                    <p>3h 16m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">3.0</span>
+                      <span class="recensioni">(1,600)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$550</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$700</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-8.jpg" alt="" />
+                        <span class="name__user">Miston Wilson</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-node.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Beginning Node.js, Express <br />
+                      & MongoDB Development
+                    </h6>
+                    <p>2h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.0</span>
+                      <span class="recensioni">(15,700)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$800</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$950</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-3.jpg" alt="" />
+                        <span class="name__user">Sina Ray</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
+                  <div class="img__card d-flex">
+                    <img src="./assets/course-laravel.jpg" alt="graph" />
+                  </div>
+                  <div class="information__card position-relative">
+                    <h6>
+                      Lavarel: The Ultimate <br />
+                      Beginner's Guide to Learn
+                    </h6>
+                    <p>1h 00m</p>
+
+                    <div class="time__icon position-absolute">
+                      <ion-icon name="time-outline"></ion-icon>
+                    </div>
+
+                    <div class="signal__icon position-relative">
+                      <ion-icon
+                        class="icon__signal__cellular"
+                        name="cellular"
+                      ></ion-icon>
+                      <span class="advance position-relative">Advance</span>
+                    </div>
+
+                    <div class="stars">
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon class="stars__icon" name="star"></ion-icon>
+                      <ion-icon
+                        class="stars__icon"
+                        name="star-half-outline"
+                      ></ion-icon>
+                      <span class="stars__p">4.5</span>
+                      <span class="recensioni">(2,500)</span>
+                      <div class="price d-flex">
+                        <div class="real__price">
+                          <h5>$170</h5>
+                        </div>
+                        <div class="before__price">
+                          <s>$220</s>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="user__space">
+                      <div class="small__img__user">
+                        <img src="./assets/avatar-7.jpg" alt="" />
+                        <span class="name__user">Sobo Rikhan</span>
+                        <ion-icon
+                          class="save__icon position-absolute"
+                          name="bookmark-outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-html.jpg" alt="graph" />
-            </div>
-            <div class="information__card position-relative">
-              <h6>
-                HTML Full Course - Build a <br />
-                Website Tutorial
-              </h6>
-              <p>3h 16m</p>
-
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
-
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <span class="stars__p">3.0</span>
-                <span class="recensioni">(1,600)</span>
-                <h5>$550 <s>$700</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-8.jpg" alt="" />
-                  <span class="name__user">Miston Wilson</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-node.jpg" alt="graph" />
-            </div>
-            <div class="information__card position-relative">
-              <h6>
-                Beginning Node.js, Express <br />
-                & MongoDB Development
-              </h6>
-              <p>2h 00m</p>
-
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
-
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star-outline"></ion-icon>
-                <span class="stars__p">4.0</span>
-                <span class="recensioni">(15,700)</span>
-                <h5>$800 <s>$950</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-3.jpg" alt="" />
-                  <span class="name__user">Sina Ray</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cardd d-flex col-12 col-sm-6 col-md-3 col-lg-1">
-            <div class="img__card d-flex">
-              <img src="./assets/course-laravel.jpg" alt="graph" />
-            </div>
-            <div class="information__card position-relative">
-              <h6>
-                Lavarel: The Ultimate <br />
-                Beginner's Guide to Learn
-              </h6>
-              <p>1h 00m</p>
-
-              <div class="time__icon position-absolute">
-                <ion-icon name="time-outline"></ion-icon>
-              </div>
-
-              <div class="signal__icon position-relative">
-                <ion-icon
-                  class="icon__signal__cellular"
-                  name="cellular"
-                ></ion-icon>
-                <span class="advance position-relative">Advance</span>
-              </div>
-
-              <div class="stars">
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon class="stars__icon" name="star"></ion-icon>
-                <ion-icon
-                  class="stars__icon"
-                  name="star-half-outline"
-                ></ion-icon>
-                <span class="stars__p">4.5</span>
-                <span class="recensioni">(2,500)</span>
-                <h5>$170 <s>$220</s></h5>
-              </div>
-              <div class="user__space">
-                <div class="small__img__user">
-                  <img src="./assets/avatar-7.jpg" alt="" />
-                  <span class="name__user">Sobo Rikhan</span>
-                  <ion-icon
-                    class="save__icon position-absolute"
-                    name="bookmark-outline"
-                  ></ion-icon>
-                </div>
-              </div>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev button__carousel"
+            type="button"
+            data-bs-target="#carousel__third__section"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next button__carousel"
+            type="button"
+            data-bs-target="#carousel__third__section"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>
-    <footer></footer>
-    
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
+    <footer class="footer d-flex flex-wrap justify-content-around">
+      <div class="info__footer">
+        <ion-icon class="icon__footer" name="reload-circle-outline"></ion-icon>
+        <span>2022 Geeks. All Rights Reserved.</span>
+      </div>
+      <div class="link__footer">
+        <span>Privacy</span>
+        <span>Terms</span>
+        <span>Feedback</span>
+        <span>Support</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
