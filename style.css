@@ -1,3 +1,5 @@
+/* Navbar */
+
 .link__dropdown {
   color: black;
 }
@@ -17,7 +19,7 @@
 }
 
 .nav__icon {
-    padding-right: 27px;
+  padding-right: 27px;
 }
 
 .user__big {
@@ -26,8 +28,8 @@
 }
 
 .user__small {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .user__big button {
@@ -38,11 +40,11 @@
 }
 
 .user__big button:hover {
-    background: none;
+  background: none;
 }
 
 .email__user {
-    color: gray;
+  color: gray;
 }
 
 .user__big img {
@@ -69,14 +71,15 @@
 }
 
 .pixel__verde__uno {
-    width: 6px;
-    height: 6px;
-    background: rgb(2, 220, 2);
-    border-radius: 50%;
-    left: 35px;
-    bottom: 4px;
-    
+  width: 6px;
+  height: 6px;
+  background: rgb(2, 220, 2);
+  border-radius: 50%;
+  left: 35px;
+  bottom: 4px;
 }
+
+/* Welcome section */
 
 .welcome__student {
   width: 100%;
@@ -121,6 +124,8 @@
 }
 
 
+/* Information section */
+
 .courses__icon {
   width: 45px;
   height: 45px;
@@ -145,8 +150,6 @@
 .information__courses {
   width: 95%;
   padding-left: 20px;
-  
-  
 }
 
 .icon__information__courses {
@@ -162,6 +165,8 @@
 .text__information {
   padding-left: 10px;
 }
+
+/* Cards section */
 
 .background__contenitore__card {
   background: #f5f4f8;
@@ -272,7 +277,7 @@
 }
 
 .nameUser p {
-    margin: 0px;
+  margin: 0px;
 }
 
 .save__icon {
@@ -292,6 +297,8 @@
   align-items: baseline;
 }
 
+/* Carousel */
+
 .button__carousel {
   background: rgb(130, 129, 129);
   opacity: 0.5;
@@ -300,10 +307,12 @@
   border-radius: 50%;
 }
 
-.carousel-control-next-icon, 
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
   width: 1.3em;
 }
+
+/* Footer */
 
 .footer {
   margin-top: 10%;
@@ -321,10 +330,12 @@
   padding-inline: 15px;
 }
 
+/* User Dropdown */
+
 .collapse__message {
   width: 200px;
   height: 190px;
-  
+
   /* top: 106%; */
   padding: 0;
   border: none;
@@ -361,7 +372,7 @@
 }
 
 .icons__collapse {
-    margin-left: 21px;
+  margin-left: 21px;
 }
 
 .icon__out {
