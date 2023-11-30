@@ -17,7 +17,7 @@
 }
 
 .nav__icon {
-    margin-right: 25px;
+    padding-right: 27px;
 }
 
 .user__big {
@@ -120,6 +120,7 @@
   height: 100%;
 }
 
+
 .courses__icon {
   width: 45px;
   height: 45px;
@@ -139,6 +140,13 @@
   height: 45px;
   background: #ffeeda;
   border-radius: 50%;
+}
+
+.information__courses {
+  width: 95%;
+  padding-left: 20px;
+  
+  
 }
 
 .icon__information__courses {
@@ -285,8 +293,16 @@
 }
 
 .button__carousel {
-  background: rgb(152, 152, 152);
-  opacity: 0.1;
+  background: rgb(130, 129, 129);
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+  width: 1.3em;
 }
 
 .footer {
