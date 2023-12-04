@@ -88,6 +88,21 @@
   transform: rotate(360deg);
 }
 
+.menu__icon {
+  margin-left: 25px;
+  border-radius: 4px;
+  border: 1px solid #704afe;
+  color: #704afe;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -90px;
+  width: 165px;
+}
+
 /*? WELCOME SECTION */
 
 .welcome__student {
@@ -348,11 +363,10 @@
   background: rgb(130, 129, 129);
   opacity: 0.5;
   width: 30px;
-  height: 30px; 
-   border-radius: 50%; 
-   top: 50%;
+  height: 30px;
+  border-radius: 50%;
+  top: 50%;
 }
-
 
 .carousel-inner {
   padding: 45px;
@@ -434,7 +448,6 @@
   text-decoration: none;
   color: black;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
